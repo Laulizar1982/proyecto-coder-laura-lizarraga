@@ -1,0 +1,57 @@
+/*-- INICIO ESTILOS GENERALES-- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+html {
+  overflow-x: hidden;
+  font-family: "Abyssinica SIL", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+#menu a {
+  color: #3e0a0a;
+  font-size: 13px;
+  font-weight: bold;
+}
+/*-- FIN ESTILOS GENERALES-- */
+/*-- INICIO ESTILOS INDEX-- */
+.title_container {
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+#Bienvenidos {
+  font-family: "Abyssinica SIL", sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #3e0a0a;
+  background-color: antiquewhite;
+  background-image: linear-gradient(
+    329.39deg,
+    #3e0a0a -10.96%,
+    rgba(83, 41, 28, 0.42) 103.96%
+  );
+}
+/*-- FIN ESTILOS INDEX-- */
+/*-- INICIO ESTILOS FOOTER-- */
+.footer {
+  text-align: center;
+  padding: 25px 15px;
+  color: #f5f0ed;
+  float: left;
+  width: 100%;
+  background-color: #241d1b;
+  min-height: 150px;
+}
+/*-- FIN ESTILOS FOOTER-- */

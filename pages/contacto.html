@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../img/favicon.ico" />
+  <link rel="stylesheet" href="../css/contacto.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
+    rel="stylesheet">
+  <title>Sweet Cafee</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container logo-nav-container">
+
+
+      <img src="../img/logosweetcaffe.png" alt="logo empresa" class="logo" />
+      <nav class="navigation">
+
+        <ul>
+
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+
+          <li>
+            <a href="../pages/locales.html">Locales</a>
+
+
+          </li>
+
+          <li>
+            <a href="../pages/productos.html">Productos</a>
+          </li>
+
+          <li>
+            <a href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
+          </li>
+
+          <li>
+            <a href="../pages/contacto.html">Contacto</a>
+          </li>
+
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+<!-- Inicio de formulario de contacto -->
+  <main>
+    <section class="formulario">
+      <div class="contact_form">
+        <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+        <form>
+          <label for="name">Nombre y Apellido</label>
+          <input type="text" name="nombre">
+          <label for="Email">Correo electrónico</label>
+          <input type="email" name="correo electrónico">
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" class="texto_mensaje" cols="40" rows="5"></textarea>
+          <label for="sexo">Masculino</label>
+          <input type="radio" name="sexo" value="Masculino">
+          <label for="sexo">Femenino</label>
+          <input type="radio" name="sexo" value="Femenino">
+          <label for="client type">Tipo de Cliente</label>
+          <select name="client type">
+            <option value="Consumidor Final" class="consumidor final">Consumidor final</option>
+            <option value="Empresa" class="empresa">Empresa</option>
+          </select>
+          <input type="reset" value="Limpiar formulario">
+          <button type="submit" name="Enviar formulario" id="enviar">
+            <p>Enviar</p>
+          </button>
+
+        </form>
+
+      </div>
+    </section>
+  </main>
+<!-- Fin del formulario de contacto -->
+
+  <!-- INICIO DE FOOTER -->
+
+  <div class="footer">
+    Septiembre 2022<br>Todos los derechos reservados
+    <div>
+      <!-- FIN DE FOOTER -->
+
+</body>
+
+</html>
