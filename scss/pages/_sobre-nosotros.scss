@@ -1,0 +1,97 @@
+/*-- INICIO ESTILOS SOBRE NOSOTROS-- */
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 50px;
+  }
+  .sobre_nosotros_main {
+    padding: 3px;
+  }
+  
+  .bloque1 {
+    background-image: linear-gradient(
+      329.39deg,
+      #3e0a0a -10.96%,
+      rgba(83, 41, 28, 0.42) 103.96%
+    );
+    background-color: antiquewhite;
+    color: #fbfbfb;
+    text-align: left;
+  }
+  
+  .bloque1 p {
+    max-width: 300px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .bloque2 {
+    background-color: antiquewhite;
+  }
+  .sobre_nosotros_img {
+    width: 100px;
+    justify-self: center;
+  }
+  /*-- FIN ESTILOS SOBRE NOSOTROS-- */
+  @media (min-width: 768px) {
+    /*-- INICIO ESTILOS SOBRE NOSOTROS-- */
+    h3 {
+      font-size: 22px;
+      font-weight: 800;
+  
+      text-align: center;
+    }
+  
+    .sobre_nosotros_main {
+      overflow: hidden;
+      justify-self: center;
+      margin-top: 15px;
+    }
+    .bloque1 {
+      background-image: linear-gradient(
+        329.39deg,
+        #3e0a0a -10.96%,
+        rgba(83, 41, 28, 0.42) 103.96%
+      );
+      color: #fbfbfb;
+      text-align: center;
+    }
+  
+    .bloque1 p {
+      max-width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px;
+    }
+    .bloque2 {
+      display: flex;
+      justify-content: center;
+      background-color: antiquewhite;
+    }
+    .sobre_nosotros_img {
+      width: 500px;
+      justify-self: center;
+    }
+    /*-- FIN ESTILOS SOBRE NOSOTROS-- */
+  }
+  @media (min-width: 992px) {
+    /*-- INICIO ESTILOS SOBRE NOSOTROS-- */
+    h3 {
+      font-size: 22px;
+      font-weight: 800;
+      text-align: center;
+    }
+  
+    .sobre_nosotros_main {
+      overflow: hidden;
+      justify-self: center;
+      margin-top: 30px;
+    }
+  
+    .sobre_nosotros_img {
+      width: 500px;
+      justify-self: center;
+    }
+    /*-- FIN ESTILOS SOBRE NOSOTROS-- */
+  }  
