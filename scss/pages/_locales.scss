@@ -1,118 +1,77 @@
 /*-- INICIO ESTILOS LOCALES-- */
-.main {
-    background-color: antiquewhite;
-    background-size: cover;
-  }
-  .locales {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 15px;
-    background-color: antiquewhite;
-  }
-  .locales_title {
-    font-weight: 600;
-    color: #3e0a0a;
-    display: block;
-    padding: 2px 15px;
-    text-align: center;
-  }
-  .locales_paragraph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 15px;
-    color: #3e0a0a;
-  }
-  .locales-link {
-    color: coral;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .locales img {
-    width: 500px;
-    height: 250px;
-    margin: 20px;
-    padding: 5px;
-    display: block;
-    object-fit: cover;
-    margin: auto;
-  }
-  
-  h3 {
-    font-size: 22px;
-    font-weight: 800;
-    margin: 50px;
-  }
-  /*-- FIN ESTILOS LOCALES-- */
-  @media (min-width: 768px) {
-    /*-- INICIO ESTILOS LOCALES-- */
-    .locales {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: antiquewhite;
+// Carousel
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: $gris;
+  padding-top: 7rem;
+}
+
+.icon-cards {
+position: relative;
+width: 60vw;
+height: 40vw;
+  max-width: 380px;
+  max-height: 250px;
+  margin: 0;
+  color: white;
+	perspective: 1000px;
+  transform-origin: center;
+
+	&__content {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+        transform-origin: center;
+		transform-style: preserve-3d;
+		transform: translateZ(-30vw) rotateY(0);
+		animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    
+    &.step-animation {
+      animation: carousel 8s infinite steps(1) forwards;
     }
-  
-    .locales-link {
-      color: coral;
-      font-weight: 500;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
-      margin-top: 30px;
-    }
-  
-    .h3 {
-      font-size: 22px;
-      font-weight: 800;
-      margin: 50px;
-    }
-    /*-- FIN ESTILOS LOCALES-- */
-  }
-  @media (min-width: 992px) {
-    /*-- INICIO ESTILOS LOCALES-- */
-    .container{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      background-color: antiquewhite;
-      padding-top: 30px;
-    }
-    .locales_title {
-      font-weight: 600;
-      color: #3e0a0a;
-      display: block;
-      padding: 20px 15px;
-      text-align: center;
-      padding-top: 30px;
-    }
-    .locales_paragraph {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 5px 15px;
-    }
-    .locales-link {
-      color: coral;
-      font-weight: 500;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
-      margin-top: 30px;
-    }
-  
-    h3 {
-      font-size: 22px;
-      font-weight: 800;
-      margin: 50px;
-    }
-    /*-- FIN ESTILOS LOCALES-- */
-  }
+	}
+
+	&__item {
+		position: absolute;
+		top: 2em;
+		left: 0;
+        right: 0;
+        bottom: 2em;
+		width: 60vw;
+		height: 40vw;
+        max-width: 380px;
+        max-height: 150px;
+        box-shadow: 0 5px 20px rgba(0,0,0,.1);
+		border-radius: 6px;
+        transform-origin: center;
+
+		&:nth-child(1) {
+			background: #FDD94F;
+			transform: rotateY(0) translateZ(35vw);
+		}
+
+		&:nth-child(2) {
+			background: #F87949;
+			transform: rotateY(120deg) translateZ(35vw);
+		}
+
+		&:nth-child(3) {
+			background: #FBAB48;
+			transform: rotateY(240deg) translateZ(35vw);
+		}
+	}
+}
+
+@keyframes carousel {
+	0%,  17.5%  { transform: translateZ(-35vw) rotateY(0); }
+	27.5%, 45%  { transform: translateZ(-35vw) rotateY(-120deg); }
+	55%, 72.5%  { transform: translateZ(-35vw) rotateY(-240deg); }
+	82.5%, 100% { transform: translateZ(-35vw) rotateY(-360deg); }
+}
+
+
+

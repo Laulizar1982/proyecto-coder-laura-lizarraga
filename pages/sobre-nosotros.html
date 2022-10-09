@@ -15,41 +15,40 @@
 
 <body>
 
-
-  <header class="d-flex flex-wrap justify-content-end mb-4" id="menu">
-    <nav class="navbar navbar-expand-sm fixed-top bg-white">
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a href="/" class="d-flex text-dark text-decoration-none">
-          <img src="../img/logosweetcaffe.png" width="70"></a>
+        <a href="../index.html" class="navbar-brand">
+          <img src="../img/logosweet&coffee.png" width="130" alt="logo empresa"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item pe-2">
+              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../index.html">Inicio</a> 
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages/locales.html">Locales</a>
+            <li class="nav-item pe-2">
+              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/locales.html">Locales</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
+            <li class="nav-item pe-2">
+              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/productos.html">Productos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
+            <li class="nav-item pe-2">
+              <a class="nav-link active" aria-current="page" href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contacto</a>
+            <li class="nav-item pe-2">
+              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/contacto.html">Contacto</a>
             </li>
           </ul>
-
         </div>
       </div>
     </nav>
   </header>
+  <!-- FIN DEL MENU DE NAVEGACION -->
   <!-- Inicio Sobre Nosotros -->
-  <main>
+  <!-- <main>
     <div class="sobre_nosotros_main">
       <div class="bloque1">
         <h3>Sobre Nosotros</h3>
@@ -59,22 +58,79 @@
     </div>
     <div class="bloque2">
       <div class="sobre_nosotros_img">
-        <img src="../img/sobrenosotrosimg.png" alt="fondo sobre nosotros" />
+        <img src="../img/sobre-nosotros.jpeg" alt="fondo sobre nosotros" />
       </div>
     </div>
-  </main>
+  </main> -->
+  <section class="section section-xxl bg-default">
+    <div class="container">
+      <h2 class="wow fadeScale" style="visibility: visible; animation-name: fadeScale;">Sobre Nosotros</h2>
+      <div class="row row-10 row-lg justify-content-center">
+        <div class="col-sm-8 col-md-7 col-lg-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;"><img src="../img/sobre-nosotros.jpeg" alt="" width="570" height="511">
+        </div>
+        <div class="col-md-10 col-lg-6 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+          <!-- Bootstrap tabs-->
+          <div class="tabs-custom tabs-jean" id="tabs-1">
+            <!-- Tab panes-->
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="tabs-1-1">
+                <div class="box-info-creative">
+                  <h4 class="box-info-creative-title"><a href="#">providing quality baked goods for all customers</a></h4>
+                  <div class="box-info-creative-text">Our mission is to create a bakery that makes the best quality baked goods on site from scratch, and where both employees and customers would feel comfortable.</div><a class="link-classic box-info-creative-link" href="#">Read more</a>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tabs-1-2">
+                <div class="box-info-creative">
+                  <h4 class="box-info-creative-title"><a href="#">Ensuring the Best Atmosphere for Everyone</a></h4>
+                  <div class="box-info-creative-text">We see the most important part of our business in ensuring the happiness of our staff and the satisfaction of our clients by creating a welcoming and caring atmosphere.</div><a class="link-classic box-info-creative-link" href="#">Read more</a>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tabs-1-3">
+                <div class="box-info-creative">
+                  <h4 class="box-info-creative-title"><a href="#">Serving only the freshest baked goods for you</a></h4>
+                  <div class="box-info-creative-text">We aim to deliver the best baked goods for corporate events and individual celebrations, while also offering the best level of customer service in the United States.</div><a class="link-classic box-info-creative-link" href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Fin Sobre Nosotros -->
 
   <!-- INICIO DE FOOTER -->
-
-  <div class="footer">
-    Septiembre 2022<br>Todos los derechos reservados
+  <footer class="container-fluid h-100 footer">
     <div>
+      <img class="img-fluid rounded" src="../img/FinFooter.webp" alt="logo footer sweet&coffee"/>
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-5 mb-md-0">
+        <h1 class="display-2">Seguinos en todas las redes</h1>
+      </div>
+      </div>
+     <div class="social-media-links">
+        <ul>
+          <li>             
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </li>
+        </ul>
+    </div>
+    </div>
+    <div class="group-2">
+      <small> &copy; 2022 <b>Sweet&Coffee</b>-Todos los derechos reservados.</small>
+    </div>
+  
+  </footer>
       <!-- FIN DE FOOTER -->
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      
 </body>
 
 </html>

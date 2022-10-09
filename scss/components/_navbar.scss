@@ -1,0 +1,24 @@
+.navbar {
+
+  font-size: 15px;
+  background-color:	#F5F5F5;
+  font-family: 'Roboto';
+  font-style: oblique;
+  li{
+    display: inline;
+    
+    a {
+      color:$secondary;
+      text-decoration: none;
+      padding: 5px 5px;
+          
+      &:hover {
+      text-decoration:solid;
+      }
+    }
+  }
+  }
+  .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }

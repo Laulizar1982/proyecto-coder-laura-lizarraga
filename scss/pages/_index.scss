@@ -1,0 +1,31 @@
+
+
+.main-principal {
+  margin-top: -2rem;
+  padding-bottom: 50rem;
+  background-image: url(../img/indexbgprueba.jpeg);
+  background-repeat: no-repeat;
+  position: center;
+  background-size: cover;
+  position: relative;
+  &__wrap {
+    &-title {
+      font-style: normal;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.6;
+      text-align: center;
+      color: $primary;
+      margin-top: 1rem;
+      font-family: "Pacifico", cursive;
+      @include tablet {
+        margin-top: 10rem;
+      }
+    }
+    }
+  
+    @media (min-width:$desktop) {
+    height: 100vh;
+  }
+}
+

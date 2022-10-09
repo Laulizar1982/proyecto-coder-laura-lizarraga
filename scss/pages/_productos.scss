@@ -1,154 +1,81 @@
-/*-- INICIO ESTILOS PRODUCTOS-- */
-.productos {
-    margin-top: 10px;
-  }
-  .container {
-    font-size: 15px;
+// /*-- INICIO ESTILOS PRODUCTOS-- */
+
+  
+  
+
+  .band {
+    width: 40%;
+    max-width: 400px;
+    margin: 0 auto;
     
-  }
-  
-  #productos_container_title {
+    display: grid;
     
-    font-size: 1.5em;
-    margin-block-start: 2em;
-    margin-block-end: 2em;
-    margin-inline-start: 0;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-    background-image: linear-gradient(
-      329.39deg,
-      #3e0a0a -10.96%,
-      rgba(83, 41, 28, 0.42) 103.96%
-    );
-    background-color: antiquewhite;
-    color: #fbfbfb;
-    text-align: left;
-  }
-  
-  .productos_cards_title {
-    text-align: start;
-    color: #3e0a0a;
-  }
-  
-  #boton{
-    background-color:burlywood;
-    color: #3e0a0a;
-    border-color: #3e0a0a;
-  }
-  #productos_container-cards_card01 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
+    grid-template-columns: 3fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
     
-  }
-  #productos_container-cards_card02 img{
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card03 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card04 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card05 img{ 
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card06 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card07 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card08 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card09 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card10 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card11 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
-  }
-  #productos_container-cards_card12 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 10px solid transparent;
-    background-color: antiquewhite;
-    border-radius: 30px;
-    margin-left: 10px;
+    @media (min-width: 30em) {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    @media (min-width: 60em) {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
   
-  h1 {
-    font-size: 25px;
-    color: #3e0a0a;
-    text-align: center;
-    line-height: 5;
-  
+  .card {
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    // sets up hover state
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+      
+    &:hover {
+      top: -2px;
+      box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    }
+    
+    
+    h1 {
+      font-size: 20px;
+      margin: 0;
+      color: #333;
+    }
+    
+    p {
+      flex: 1;
+      line-height: 1.4;
+    }
+    
+    span {
+      font-size: 12px;
+      font-weight: bold;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin: 2em 0 0 0;
+    }
+    
+    .thumb {
+      padding-bottom: 10%;
+      background-size: cover;
+      background-position: center center;
+    }
   }
-  /*-- FIN ESTILOS PRODUCTOS-- */
+  
+  .item-1 {
+    @media (min-width: 60em) {
+      grid-column: 1 / span 2;
+      
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }

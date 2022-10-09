@@ -1,95 +1,24 @@
 // Include any default variable overrides here (though functions won't be available)
-@import "./components/animaciones";
-@import "./components/variables";
-@import "./components/footer";
+
+@import "./complements/variables";
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "./complements/mixins";
 @import "./pages/index";
 @import "./pages/locales";
 @import "./pages/productos";
 @import "./pages/sobre-nosotros";
 @import "./pages/contacto";
+@import "./components/footer";
+@import "./components/navbar";
 
 
-@mixin reset-pm {
-  margin: 0;
-  padding: 0;
-}
-* {
-  @include reset-pm();
-  box-sizing: border-box;
-}
-html {
-  overflow-x: hidden;
-  font-family: "Abyssinica SIL", sans-serif;
-}
+
+
+html,
 body {
-  background: $bgcolor;
+  height: 100%;
+  overflow-x: hidden;
+  background: $gris
 }
-
-.main-screen {
-  background-color: white;
-  width: 1400px;
-  height: 600px;
-  padding: 10px;
-  box-shadow: 0 0 20px 2px rgba (0, 0, 0, 0.1);
-  background-image: url(../img/backgroundindex.jpg);
-  background-size: 100% 100%;
-}
-
-  .navbar {
-    background:$bgcolor;
-    font-size: 15px;
-    color: $secondary-color;
-    
-    li{
-      display: inline;
-      
-      a {
-        color: $secondary-color;
-        text-decoration: none;
-        padding: 10px 10px;
-            
-        &:hover {
-        text-decoration:solid;
-        }
-      }
-    }
-    }
-
-.row {
-    display: flex;
-    align-items: center;
-    .col {
-        width: 50%;
-        .col-30 {
-            width: 30%;
-            .col-70 {
-                width: 70%;
-            }
-        }
-    }
-}
-.m-auto {
-    margin: 0 auto;
-}
-
-
- h1 {
-    color: $secondary-color;
-    font-family: "Abyssinica SIL", sans-serif;
-    font-style: oblique;
-    font-size: 2rem;
-    font-weight: 800;
-    text-align: left;
-    padding-left: 10px;
-  }
-
-  p {
-    color: $secondary-color;
-    font-weight: 600;
-    font-size: 1rem;
-    padding-left: 10px;
-    text-align: left;
-    align-items: center;
-  }
-

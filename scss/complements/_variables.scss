@@ -1,0 +1,35 @@
+//Variables
+$primary: #743c20;
+$secondary: #92624a;
+$gris:#B5B5B5;
+$light: #D6DBDF;
+$dark: #85929E;
+$cta: #857345;
+$border: solid 4px black;
+$box-shadow: 0 2px 10px 0 rgba (0, 0, 0, 0, 6);
+
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "dark": $dark,
+  "cta": $cta,
+);
+
+//Tipografia
+$display-font-weight: 900;
+// card
+$card-border-color: transparent;
+
+//Navlink
+$nav-link-padding-x: 0;
+$nav-link-color: $gris;
+
+
+// Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+// Unidades
+$separacion: 5rem;
