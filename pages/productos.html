@@ -1,25 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
+      rel="stylesheet"
+    />
+    <title>Sweet Cafee</title>
+  </head>
 
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="shortcut icon" href="../img/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
-    rel="stylesheet">
-  <title>Sweet Cafee</title>
-</head>
-
-<body>
-
-  <header>
-    <nav class="navbar navbar-expand-lg fixed-top">
+  <body>
+    <header>
       <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top">
         <a href="../index.html" class="navbar-brand">
-          <img src="../img/logosweet&coffee.png" width="130" alt="logo empresa"></a>
+          <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,237 +26,340 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item pe-2">
-              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../index.html">Inicio</a>
+              <a style="color:#F5F5F5"class="nav-link btn btn-outline px-3" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/locales.html">Locales</a>
+              <a style="color:#F5F5F5" class="nav-link btn btn-outline px-3" aria-current="page" href="../pages/locales.html">Locales</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+              <a style="color:#F5F5F5" class="nav-link active"  aria-current="page" href="../pages/productos.html">Productos</a>
             </li>
             <li class="nav-item pe-2">
-              <a class=" nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
+              <a style="color:#F5F5F5"class=" nav-link btn btn-outline px-3" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item pe-2">
-              <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/contacto.html">Contacto</a>
+              <a style="color:#F5F5F5"class="nav-link btn btn-outline px-3" aria-current="page" href="../pages/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </header>
-  <!-- FIN DEL MENU DE NAVEGACION -->
-  <!-- FIN DEL MENU DE NAVEGACION -->
-  <!-- Inicio Productos -->
-  <!-- <main>
-    <section class="productos">
-      <div class="productos-container">
-        <div class="row">
-          <div class="col lg-12">
-            <h1 class="w-100 d-flex mb-3" id="productos_container_title">Nuestro menú para desayunos y meriendas</h1>
+    <!-- FIN DEL MENU DE NAVEGACION -->
+
+    <!-- Inicio Productos -->
+
+    <main>
+      
+        <div class="tz-gallery">
+          <section class="container-productos">
+        <h1 class="container-productos--title">Nuestro Menú para Desayunos y meriendas</h1>
+          <div class="row match-to-row">
+            <div class="  col-md-4 col-lg-4  item-1">
+              <a class="card">
+                <span>
+                  <h2>Chococoffe</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/chococoffe.jpeg"
+                    alt="chococoffe"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class=" col-md-4 col-lg-4  item-2">
+              <a class="card">
+                <span>
+                  <h2>Café Americano</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/cafeamericano.jpeg"
+                    alt="cafeamericano"
+                    class="img-thumbnail"
+                /></a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-4 item-3">
+              <a class="card">
+                <span>
+                  <h2>Café Expresso</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/expresso.jpeg"
+                    alt="cafeeexpresso"
+                    class="img-thumbnail"
+                /></a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
           </div>
+          <div class="row match-to-row">
+            <div class="col-md-4 col-lg-4 item-4">
+              <a class="card">
+                <span>
+                  <h2>Café Latte</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/latte.jpeg"
+                    alt="cafeelatte"
+                    class="img-thumbnail"
+                /></a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                ></a
+              >
+            </div>
+            <div class="col-md-4 col-lg-4 item-5">
+              <a class="card">
+                <span>
+                  <h2>Caramel Machiatto</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/caramelmacchiato.jpeg"
+                    alt="caramelmachiatto"
+                    class="img-thumbnail"
+                /></a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-4 item-6">
+              <a class="card">
+                <span>
+                  <h2>Mocaccino</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/mochaccino.jpeg"
+                    alt="mocaccino"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+          </div>
+          <div class="row match-to-row">
+            <div class="col-md-4 col-lg-4 item-7">
+              <a class="card">
+                <span>
+                  <h2>Black Tea</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/black tea.jpeg"
+                    alt="blacktea"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-4 item-8">
+              <a class="card">
+                <span>
+                  <h2>Green Tea</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/greentea.jpeg"
+                    alt="greentea"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-4 item-9">
+              <a class="card">
+                <span>
+                  <h2>Sandwich</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/sandwich.jpeg"
+                    alt="sandwich"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+          </div>
+          <div class="row match-to-row">
+            <div class="col-md-4 col-lg-4 item-10">
+              <a class="card">
+                <span>
+                  <h2>Pancake</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/pancake.jpeg"
+                    alt="pancake"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-4 item-11">
+              <a class="card">
+                <span>
+                  <h2>cupcake</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/cupcake.jpeg"
+                    alt="cupcake"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-4 item-12">
+              <a class="card">
+                <span>
+                  <h2>Café para llevar</h2>
+                </span>
+                <a class="lightbox">
+                  <img
+                    src="../img/mug.jpeg"
+                    alt="cafeparallevar"
+                    class="img-thumbnail"
+                  />
+                </a>
+                <a
+                  data-toggle="modal"
+                  href="#comprar"
+                  class="btn btn-primary btn-lg"
+                  id="boton"
+                  >Comprar</a
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Fin productos -->
+    <!-- INICIO DE FOOTER -->
+
+    <footer class="container-fluid footer">
+      <div>
+        <img
+          class="img-fluid rounded"
+          src="../img/FinFooter.webp"
+          alt="logo footer sweet&coffee"
+        />
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <h1 class="display-2">Seguinos en todas las redes</h1>
+          </div>
+        </div>
+        <div class="social-media-links">
+          <ul>
+            <li>
+              <a href="#" class="fa fa-facebook"> </a>
+              <a href="#" class="fa fa-instagram"> </a>
+              <a href="#" class="fa fa-youtube"> </a>
+              <a href="#" class="fa fa-twitter"> </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col-lg-12 ms-5">
-        <div class="row">
-          <div class="col-lg-4">
-            <div id="productos_container-cards_card01">
-            <img class="animacion" style='width:250px;' src="../img/chococoffee.png">
-            <h4 class="productos_cards_title">Chococoffee</h4>
-            <a data-toggle='modal' href='#comprar' class="btn btn-primary
-    btn-lg" id="boton">Comprar</a>
-  </div>
-          </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card02">
-          <img class="animacion" style='width:250px;' src="../img/cafeeexpresso.png" alt=''>
-            <h4>Cafee Expresso</h4>
-            <a data-toggle='modal' href='#comprar' class="btn btn-primary 
-    btn-lg" id="boton">Comprar</a>
-  </div>
-        </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card03">
-          <img style='width:250px;' src="../img/cafeamericano.png" alt=''>
-            <h4>Café Americano</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-    </div>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card04">
-            <img style='width:250px' src="../img/caramelmachiatto.png" alt="caramel Macchiato" />
-            <h4>Caramel Machiatto</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card05">
-            <img style='width:250px'src="../img/cafeemocha.png" alt="cafe Mocha" />
-            <h4>Café Mocha</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-          </div>
-          </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card06">
-            <img style='width:250px' src="../img/cafeelatte.png" alt="Cafee Latte" />
-            <h4>Cafee Latte</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-          </div>
-          </div>
-        </div>
-        <div class="row">
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card07">
-            <img style='width:250px'src="../img/greentea.png" alt="Green tea" />
-            <h4>Green Tea</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card08">
-            <img style='width:250px'src="../img/matcha.png" alt="Matcha" />
-            <h4>Matcha</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card09">
-            <img style='width:250px' src="../img/pancake.png" alt="Pancake" />
-            <h4>Pancake</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-
-          </div>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card10">
-            <img style='width:250px'src="../img/sandwich.png" alt="Sandwich" />
-            <h4>Sandwich</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card11">
-            <img style='width:250px'src="../img/cupcake.png" alt="Cupcake" />
-            <h4>Cupcake</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div id="productos_container-cards_card12">
-            <img style='width:250px'src="../img/blacktea.png" alt="Black Tea" />
-            <h4>Black Tea</h4>
-            <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-          </div>
-        </div>
-
+      <div class="group-2">
+        <small>
+          &copy; 2022 <b>Sweet&Coffee</b>-Todos los derechos reservados.</small
+        >
       </div>
-      </div>
-    </section>
-  </main> -->
+    </footer>
+    <!-- FIN DE FOOTER -->
 
-  <main>
-    <h1>Nuestro Menú para Desayunos y meriendas</h1>
-  <div class="band">
-    <div class="item-1">
-      <a class="card">
-        <span>
-          <h1>Chococoffee</h1>
-        </span>
-      <img src="../img/chococoffee.png" class="thumb">
-      <p>La mejor opción para los amantes del Chocolate y el Café</p>
-      </a>
-      <a data-toggle='modal' href='#comprar' class='btn btn-primary 
-    btn-lg' id="boton">Comprar</a>
-        </div>
-        
-    </div>
-    <div class="item-2">
-      <a href="https://webdesign.tutsplus.com/articles/how-to-conduct-remote-usability-testing--cms-27045" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
-        <article>
-          <h1>How to Conduct Remote Usability Testing</h1>
-          <span>Harry Brignull</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-3">
-      <a href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg);"></div>
-        <article>
-          <h1>Created by You, July Edition</h1>
-          <p>Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community! </p>
-          <span>Melody Nieves</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-4">
-      <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"></div>
-        <article>
-          <h1>How to Code a Scrolling “Alien Lander” Website</h1>
-          <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.</p>
-          <span>Kezz Bracey</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-5">
-      <a href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg);"></div>
-        <article>
-          <h1>How to Create a “Stranger Things” Text Effect in Adobe Photoshop</h1>
-          <span>Rose</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-6">
-      <a href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg);"></div>
-        <article>
-          <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
-  
-          <span>Marie Gardiner</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-7">
-      <a href="https://webdesign.tutsplus.com/articles/notes-from-behind-the-firewall-the-state-of-web-design-in-china--cms-22281" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"></div>
-        <article>
-          <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
-          <span>Kendra Schaefer</span>
-        </article>
-      </a>
-    </div>
-  </div>
-  </main>
-  <!-- Fin productos -->
-  <!-- INICIO DE FOOTER -->
-
-  <div class="footer">
-    Septiembre 2022<br>Todos los derechos reservados
-    <div>
-      <!-- FIN DE FOOTER -->
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     
-
-    </body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="htpps://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run(".tz-gallery");
+    </script>
+  </body>
 </html>

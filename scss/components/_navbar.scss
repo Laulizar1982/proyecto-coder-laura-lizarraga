@@ -1,7 +1,7 @@
 .navbar {
 
   font-size: 15px;
-  background-color:	#F5F5F5;
+  background-color:	$nav-link-color;
   font-family: 'Roboto';
   font-style: oblique;
   li{
@@ -10,7 +10,7 @@
     a {
       color:$secondary;
       text-decoration: none;
-      padding: 5px 5px;
+      padding: $nav-link-padding-x;
           
       &:hover {
       text-decoration:solid;

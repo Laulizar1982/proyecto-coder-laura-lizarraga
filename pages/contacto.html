@@ -16,36 +16,35 @@
 <body>
 <!-- INICIO DEL MENU DE NAVEGACION -->
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <a href="../index.html" class="navbar-brand">
-        <img src="../img/logosweet&coffee.png" width="130" alt="logo empresa"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-          <li class="nav-item pe-2">
-            <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item pe-2">
-            <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/locales.html">Locales</a>
-          </li>
-          <li class="nav-item pe-2">
-            <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/productos.html">Productos</a>
-          </li>
-          <li class="nav-item pe-2">
-            <a class="nav-link btn btn-outline-light rounded-pill px-3" aria-current="page" href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
-          </li>
-          <li class="nav-item pe-2">
-            <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+    <a href="../index.html" class="navbar-brand">
+      <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item pe-2">
+          <a style="color:#F5F5F5" class="nav-link btn btn-outline px-3" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item pe-2">
+          <a style="color:#F5F5F5"class="nav-link btn btn-outline px-3" aria-current="page" href="../pages/locales.html">Locales</a>
+        </li>
+        <li class="nav-item pe-2">
+          <a style="color:#F5F5F5"class="nav-link btn btn-outline px-3" aria-current="page" href="../pages/productos.html">Productos</a>
+        </li>
+        <li class="nav-item pe-2">
+          <a style="color:#F5F5F5"class=" nav-link btn btn-outline px-3" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item pe-2">
+          <a style="color:#F5F5F5"class="nav-link active"aria-current="page" href="../pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-</header>
+  </div>
+</nav>
 <!-- FIN DEL MENU DE NAVEGACION -->
 
 
@@ -53,45 +52,33 @@
 <!-- FIN DEL MENU DE NAVEGACION -->
 
 <!-- Inicio de formulario de contacto -->
-<main>
-    <div class="container">
+<main class="container-form">
       <div class="row">
           <div class="col-md-12">
               <div class="well well-sm">
-                  <form class="form-horizontal" method="post">
+                  <form class="form-horizontal">
                       <fieldset>
-                          <legend class="text-center">Formulario de registro</legend>
+                          <legend class="container-form--text">Formulario de registro</legend>
                           <div class="row g-3">
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                               <label for="inputName4" class="form-label">Nombre</label>
                               <input type="text" class="form-control" id="inputName4">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                               <label for="inputSurname4" class="form-label">Apellido</label>
                               <input type="text" class="form-control" id="inputSurname">
                             </div>
-                            <div class="col-12">
+                            <div class="col-3">
                               <label for="inputEmail" class="form-label">E-mail</label>
                               <input type="text" class="form-control" id="inputEmail" placeholder="">
                             </div>
-                            <div class="col-12">
+                            <div class="col-md-6">
                               <label for="inputAddress" class="form-label">Dirección</label>
                               <input type="text" class="form-control" id="inputAddress" placeholder="1234 Calle">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-3">
                               <label for="inputCity" class="form-label">Ciudad</label>
                               <input type="text" class="form-control" id="inputCity">
-                            </div>
-                            <div class="col-md-4">
-                              <label for="inputState" class="form-label">Localidad</label>
-                              <select id="inputState" class="form-select">
-                                <option selected>Seleccione...</option>
-                                <option>...</option>
-                              </select>
-                            </div>
-                            <div class="col-md-2">
-                              <label for="inputZip" class="form-label">Código Postal</label>
-                              <input type="text" class="form-control" id="inputZip">
                             </div>
                             <div class="col-12">
                               <div class="form-check">
@@ -101,7 +88,7 @@
                                 </label>
                               </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-6">
                               <button href="#" class="btn btn-primary">Registrarme</button>
                             </div>
                             </div>
@@ -111,7 +98,7 @@
 
   <!-- INICIO DE FOOTER -->
 
-  <footer class="container-fluid h-100 footer">
+  <footer class="container-fluid footer">
     <div >
       <img class="img-fluid rounded m-6" src="../img/FinFooter.webp" alt="logo footer sweet&coffee"/>
     <div class="row align-items-center">
