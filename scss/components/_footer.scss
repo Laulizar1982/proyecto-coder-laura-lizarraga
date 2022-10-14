@@ -1,12 +1,16 @@
 /*-- INICIO ESTILOS FOOTER-- */
 
 .display-2 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.2;
+  color: $primary;
 }
 @mixin desktop {
   .display-2 {
     font-size: 2rem;
   }
+}
+.group-2{
+  color: $primary;
 }
