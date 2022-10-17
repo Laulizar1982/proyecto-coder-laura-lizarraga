@@ -1,0 +1,24 @@
+// Include any default variable overrides here (though functions won't be available)
+@import "./complements/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "./complements/mixins";
+@import "./pages/index";
+@import "./pages/locales";
+@import "./pages/productos";
+@import "./pages/nosotros";
+@import "./pages/contacto";
+@import "./components/footer";
+@import "./components/navbar";
+
+
+
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background: $grey;
+}
