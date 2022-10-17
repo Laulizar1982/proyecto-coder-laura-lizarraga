@@ -1,0 +1,36 @@
+.locales-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  &--subtitle {
+    color: $primary;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-top: 30px;
+  }
+}
+.local {
+  margin-bottom: 30px;
+  &--n-local {
+    margin-bottom: 30px;
+    color: $primary;
+    margin-top: 30px;
+  }
+  &--number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: $primary;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  }
+}
