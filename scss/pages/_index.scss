@@ -1,4 +1,3 @@
-
 // header
 
 .main-header {
@@ -24,11 +23,10 @@
     background-size: cover;
   }
 }
-.container-fluid nav{
-background-color: $green;
-height:15%;
+.container-fluid nav {
+  background-color: $green;
+  height: 15%;
 }
-
 
 .header-text {
   display: flex;
@@ -84,7 +82,6 @@ height:15%;
     }
     @media (min-width: 375px) {
       height: 30%;
-      
     }
   }
 }
@@ -116,19 +113,19 @@ height:15%;
 // Locales
 
 .container-locales {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-max-width: 500px;
-&--title {
-  color: $primary;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 600;
-  padding-left: 10px;
-  margin-bottom: 50px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+  &--title {
+    color: $primary;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 50px;
+  }
   @media (min-width: 992px) {
     width: 100%;
     max-width: 1700px;
@@ -138,10 +135,7 @@ max-width: 500px;
     margin-bottom: 100px;
     padding-right: 50px;
   }
-  
-  }
-
-
+}
 
 //inicio carousel
 
@@ -168,7 +162,6 @@ max-width: 500px;
     &.step-animation {
       animation: carousel 8s infinite steps(1) forwards;
     }
-   
   }
 
   &__item {
@@ -221,19 +214,19 @@ max-width: 500px;
   }
 }
 
-  @media only screen and (max-width:375px) {
-    .container-locales{
-      width: 70%;
+@media only screen and (max-width: 375px) {
+  .container-locales {
+    width: 70%;
+  }
+  .icon-cards {
+    margin-bottom: 5%;
+    width: 100%;
+    padding-left: 50px;
+    .content {
+      font-size: 30px;
     }
-    .icon-cards{
-      margin-bottom: 5%;
-      width: 100%;
-      padding-left: 50px;
-      .content{
-        font-size: 30px;
-      }
-      .item{
-        font-size: 20px;
-      }
+    .item {
+      font-size: 20px;
     }
+  }
 }
