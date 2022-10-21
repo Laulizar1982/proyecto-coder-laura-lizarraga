@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Café, CAFE, Cafetería, CAFETERIA, experiencia Café">
+    <meta name="description" content="Te invitamos a vivir una nueva forma de descubrir el café">
   <link rel="shortcut icon" href="../img/favicon.ico" />
   <link rel="stylesheet" href="../css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
@@ -17,40 +19,25 @@
 <!-- INICIO DEL MENU DE NAVEGACION -->
 <header>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top">
-    <a href="../index.html" class="navbar-brand">
-      <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-        <li class="nav-item pe-2">
-          <a style="color:#F5F5F5" href="../index.html">Inicio</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a style="color:#F5F5F5" href="../pages/locales.html">Locales</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a style="color:#F5F5F5" href="../pages/productos.html">Productos</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a style="color:#F5F5F5" href="../pages/nosotros.html">Nosotros</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a style="color:#F5F5F5"class="nav-link active"aria-current="page" href="../pages/contacto.html">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg fixed-top bg-green">
+      <a href="../index.html" class="navbar-brand">
+        <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navg navbar-nav w-100 justify-content-end">
+              <a class="nav-item nav-link"  href="../index.html">INICIO</a>
+              <a class="nav-item nav-link" href="../pages/locales.html">LOCALES</a>
+              <a class="nav-item nav-link" href="../pages/productos.html">PRODUCTOS</a>
+              <a class="nav-item nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+              <a class="nav-link active" aria-current="page" href="../pages/contacto.html">CONTACTO</a>      
+          </div>
+        </div>
+      </div>
+    </nav>
 <!-- FIN DEL MENU DE NAVEGACION -->
-
-
-
-<!-- FIN DEL MENU DE NAVEGACION -->
-
 <!-- Inicio de formulario de contacto -->
 <main class="container-form">
       <div class="row">
@@ -81,8 +68,8 @@
                               <input type="text" class="form-control" id="inputCity">
                             </div>
                             <div class="col-9">
-                              <label for="textarea" class="form-label">Deje su comentario</label>
-                              <input type="text" class="form-control" id="inputcomment">
+                              <label for="mensaje" class="form-label">Deje aquí su mensaje</label>
+                             <textarea class="form-control" name="name" id="mensaje"rows="5" name="mensaje"></textarea>
                             </div>
                             <div class="col-12">
                               <div class="form-check">
@@ -104,7 +91,7 @@
 
   <footer class="container-fluid footer">
     <div >
-      <img class="img-fluid rounded m-6" src="../img/FinFooter.webp" alt="logo footer sweet&coffee"/>
+      <img class="img-fluid rounded m-6" src="../img/FinFooter.jpg" alt="logo footer sweet&coffee"/>
     <div class="row align-items-center">
       <div class="col-md-6 mb-5 mb-md-0">
         <h1 class="display-2">Seguinos en todas las redes</h1>

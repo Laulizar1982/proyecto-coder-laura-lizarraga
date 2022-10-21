@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="cafetería, Cafetería, CAFETERIA, cafetería en Buenos Aires, cafetería en Palermo, cafetería en Pilar, cafetería en Tortuguitas">
+    <meta name="description" content="Te invitamos a vivir una nueva forma de descubrir el café">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="shortcut icon" href="../img/favicon.ico" />
     <link
@@ -18,34 +20,25 @@
 
     <header>
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg fixed-top">
-        <a href="../index.html" class="navbar-brand">
-          <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item pe-2">
-              <a style="color:#F5F5F5"class="nav-link btn btn-outline px-3" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item pe-2">
-              <a style="color:#F5F5F5" class="nav-link btn btn-outline px-3" aria-current="page" href="../pages/locales.html">Locales</a>
-            </li>
-            <li class="nav-item pe-2">
-              <a style="color:#F5F5F5" class="nav-link active"  aria-current="page" href="../pages/productos.html">Productos</a>
-            </li>
-            <li class="nav-item pe-2">
-              <a style="color:#F5F5F5"class=" nav-link btn btn-outline px-3" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item pe-2">
-              <a style="color:#F5F5F5"class="nav-link btn btn-outline px-3" aria-current="page" href="../pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg fixed-top bg-green">
+          <a href="../index.html" class="navbar-brand">
+            <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navg navbar-nav w-100 justify-content-end">
+                <a class="nav-item nav-link"  href="../index.html">INICIO</a>
+                  <a class="nav-item nav-link" href="../pages/locales.html">LOCALES</a>
+                  <a class="nav-link active" aria-current="page" href="../pages/productos.html">PRODUCTOS</a>
+                  <a class="nav-item nav-link" href="../pages/nosotros.html">NOSOTROS</a>
+                  <a class="nav-item nav-link" href="../pages/contacto.html">CONTACTO</a>      
+              </div>
+            </div>
+          </div>
+        </nav>
     <!-- FIN DEL MENU DE NAVEGACION -->
 
     <!-- INICIO PRODUCTOS -->
@@ -54,9 +47,10 @@
       
         <div class="tz-gallery">
           <section class="container-productos">
-        <h1 class="container-productos--title">Nuestro Menú para Desayunos y meriendas</h1>
+        <h1 class="container-productos--title">Nuestro menú para reservar tu experiencia única</h1>
+        <p>Te invitamos a elegir el/los producto/s de tu agrado, ya que seleccionando agregar, automáticamente se genera la reserva de tu orden en el local seleccionado</p>
           <div class="row match-to-row">
-            <div class="  col-md-4 col-lg-4  item-1">
+            <div class="  col-md-4 col-lg-4 item-1">
               <a class="card">
                 <span>
                   <h2>Chococoffe</h2>
@@ -70,10 +64,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -90,10 +84,10 @@
                 /></a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -110,10 +104,10 @@
                 /></a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#cafeexpresso"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -124,18 +118,18 @@
                 <span>
                   <h2>Café Latte</h2>
                 </span>
-                <a class="lightbox">
+                <a class="lightbox" alt="cafelatte">
                   <img
                     src="../img/latte.jpeg"
-                    alt="cafeelatte"
+                    alt="cafelatte"
                     class="img-thumbnail"
                 /></a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 ></a
               >
             </div>
@@ -152,10 +146,10 @@
                 /></a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -173,10 +167,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -196,10 +190,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -217,10 +211,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -238,10 +232,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -261,17 +255,17 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
             <div class="col-md-4 col-lg-4 item-11">
               <a class="card">
                 <span>
-                  <h2>cupcake</h2>
+                  <h2>Cupcake</h2>
                 </span>
                 <a class="lightbox">
                   <img
@@ -282,10 +276,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -303,10 +297,10 @@
                 </a>
                 <a
                   data-toggle="modal"
-                  href="#comprar"
+                  href="#reservar"
                   class="btn btn-primary btn-lg"
                   id="boton"
-                  >Comprar</a
+                  >Agregar</a
                 >
               </a>
             </div>
@@ -322,7 +316,7 @@
       <div>
         <img
           class="img-fluid rounded"
-          src="../img/FinFooter.webp"
+          src="../img/FinFooter.jpg"
           alt="logo footer sweet&coffee"
         />
         <div class="row align-items-center">
@@ -357,11 +351,8 @@
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="htpps://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script>
-      baguetteBox.run(".tz-gallery");
+      crossorigin="anonymous">
     </script>
+  
   </body>
 </html>
