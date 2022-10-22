@@ -39,29 +39,32 @@ label {
  border: $border;
  border-radius: 8px;
  -webkit-border-radius:8px;
- -moz-border-radius:8px;
- 
+ -moz-border-radius:8px; 
 }
-
 .jumbotron{
   border-radius: 8px 8px 0 0;
   padding: 16px;
   -webkit-border-radius:8px 8px 0 0;
   -moz-border-radius:8px 8px 0 0;
   background: linear-gradient(#92624a,#fff);
-}
-.jumbotron h1{
-  font-size: 36px;
-  text-align: center;
-  margin-top: 20px;
-  font-weight: 600;
-  color:$primary;
+  h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color:$primary;
+  }
 }
 .fcontacto{
   padding: 14px;
 }
 .gtco-widget h3{
 color:$primary;
-
+font-size: 30px;
+text-align: center;
+margin-top: 20px;
+font-weight: 600;
+color:$primary;
 }
+
   

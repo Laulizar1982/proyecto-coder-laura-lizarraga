@@ -3,7 +3,6 @@
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "../node_modules/font-awesome/css/font-awesome.min.css";
 @import "./complements/mixins";
 @import "./pages/index";
 @import "./pages/locales";
@@ -12,9 +11,6 @@
 @import "./pages/contacto";
 @import "./components/footer";
 @import "./components/navbar";
-
-
-
 
 html,
 body {

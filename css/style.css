@@ -4,7 +4,6 @@
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
-@import url(../node_modules/font-awesome/css/font-awesome.min.css);
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -8634,18 +8633,22 @@ label {
   -webkit-border-radius: 8px 8px 0 0;
   -moz-border-radius: 8px 8px 0 0;
   background: linear-gradient(#92624a, #fff); }
-
-.jumbotron h1, .jumbotron .h1 {
-  font-size: 36px;
-  text-align: center;
-  margin-top: 20px;
-  font-weight: 600;
-  color: #5A380F; }
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #5A380F; }
 
 .fcontacto {
   padding: 14px; }
 
 .gtco-widget h3, .gtco-widget .h3 {
+  color: #5A380F;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
   color: #5A380F; }
 
 /*-- INICIO ESTILOS FOOTER-- */
