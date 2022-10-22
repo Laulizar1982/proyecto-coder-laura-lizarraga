@@ -1,14 +1,11 @@
 
 //Productos
 .container-productos {
-  color: $primary;
   margin-bottom: 40px;
   padding: 60px 0;
   width: 100%;
-  max-width: 1500px;
-  
-  &--title {
-    color: #fff;
+  max-width: 1500px; 
+  &--title{
     font-size: 35px;
     text-align: center;
     font-weight: 800;
@@ -18,7 +15,8 @@
     background-color: black;
     background-size: cover;
     padding-left: 0;
-    padding-right: 0%;
+    padding-right: 0;
+    color: $light;
   }
   p{
     font-size: 20px;
@@ -37,7 +35,7 @@
   hsla(34, 70%, 69%, 0.593),
   hsla(34, 62%, 73%, 0.602)
 ),
-url(../img/contactobg8.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+url(../img/bgmenuproductos.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: contain;
 background-attachment: fixed;
 position: relative;

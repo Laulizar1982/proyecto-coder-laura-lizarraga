@@ -8276,7 +8276,7 @@ textarea.form-control-lg {
     font-family: "Pacifico", cursive; }
   .header-text--title2 h2, .header-text--title2 .h2 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     color: #5A380F; }
   @media (min-width: 375px) {
     .header-text {
@@ -8309,14 +8309,17 @@ textarea.form-control-lg {
   margin-bottom: 60px; }
   .container-locales--title {
     color: #5A380F;
-    font-size: 30px;
-    font-weight: 600;
-    padding-left: 30px; }
-  .container-locales p {
-    padding: 15px 30px 30px 15px;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0; }
+  .container-locales p {
+    font-size: 20px;
+    font-weight: 700;
     color: #5A380F; }
 
 .icon-cards {
@@ -8385,11 +8388,13 @@ textarea.form-control-lg {
   .icon-cards {
     margin-bottom: 5%;
     width: 90%;
-    padding-left: 30px; }
+    padding-left: 30px;
+    font-weight: 700;
+    color: #5A380F; }
     .icon-cards .content {
       font-size: 20px; }
     .icon-cards .item {
-      font-size: 20px; } }
+      font-size: 30px; } }
 
 .container-reservar {
   display: flex;
@@ -8403,14 +8408,17 @@ textarea.form-control-lg {
   margin-top: 150px; }
   .container-reservar--title {
     color: #5A380F;
-    font-size: 30px;
-    font-weight: 600;
-    padding-left: 30px; }
-  .container-reservar p {
-    padding: 15px 30px 30px 15px;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0; }
+  .container-reservar p {
+    font-size: 20px;
+    font-weight: 700;
     color: #5A380F; }
   .container-reservar img {
     width: 100%;
@@ -8440,10 +8448,14 @@ textarea.form-control-lg {
   margin-right: 20px; }
   .locales-container--title {
     color: #5A380F;
-    font-size: 30px;
-    font-weight: 600;
-    padding-left: 30px;
-    margin-top: 20px; }
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0; }
 
 .card {
   padding-left: 10px;
@@ -8461,21 +8473,23 @@ textarea.form-control-lg {
     color: #1c5633;
     font-size: 30px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     padding-left: 10px; }
   .card-body--text {
-    color: #5A380F;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0; }
 
 .container-productos {
-  color: #5A380F;
   margin-bottom: 40px;
   padding: 60px 0;
   width: 100%;
   max-width: 1500px; }
   .container-productos--title {
-    color: #fff;
     font-size: 35px;
     text-align: center;
     font-weight: 800;
@@ -8485,7 +8499,8 @@ textarea.form-control-lg {
     background-color: black;
     background-size: cover;
     padding-left: 0;
-    padding-right: 0%; }
+    padding-right: 0;
+    color: #D6DBDF; }
   .container-productos p {
     font-size: 20px;
     text-align: center;
@@ -8496,7 +8511,7 @@ textarea.form-control-lg {
 
 .tz-gallery {
   padding: 60px;
-  background: linear-gradient(to right, rgba(231, 183, 121, 0.593), rgba(229, 192, 143, 0.602)), url(../img/contactobg8.jpeg);
+  background: linear-gradient(to right, rgba(231, 183, 121, 0.593), rgba(229, 192, 143, 0.602)), url(../img/bgmenuproductos.jpeg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: contain;
   background-attachment: fixed;
@@ -8540,12 +8555,64 @@ textarea.form-control-lg {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
 
-@media (max-width: 768px) {
-  #intro, #team {
-    width: 90% !important; }
-  .servicio-fila {
-    width: 100% !important;
-    text-align: center; } }
+.container-nosotros {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px; }
+  .container-nosotros--title {
+    color: #5A380F;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0; }
+  @media (min-width: 375px) {
+    .container-nosotros {
+      height: 80%; } }
+
+.nosotros-card {
+  background: #D6DBDF;
+  text-decoration: none;
+  color: #5A380F;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .nosotros-card span h2, .nosotros-card span .h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5A380F;
+    background: #D6DBDF; }
+  .nosotros-card p {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000; }
+
+.box img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 1em;
+  left: 0;
+  right: 0;
+  margin-bottom: 40px; }
 
 label {
   margin-top: 6px;
