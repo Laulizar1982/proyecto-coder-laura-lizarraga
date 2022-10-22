@@ -1,21 +1,67 @@
 
-.container-form {
-  margin-bottom: 20px;
-  background-image: url(../img/contactobg3.jpeg);
-  background-image: no-repeat;
-  background-size: cover;
-  background-attachment:fixed;
-  background-position:center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -moz-background-size:cover;
-  padding-left: 20px;
+// .container-form {
+//   margin-bottom: 20px;
+//   background-image: url(../img/contactobg3.jpeg);
+//   background-image: no-repeat;
+//   background-size: cover;
+//   background-attachment:fixed;
+//   background-position:center;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -moz-background-size:cover;
+//   padding-left: 20px;
+//   &form-control{
+//     color: $primary;
+//   }
 
-  &--text {
-    color: $primary;
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 90px;
-    text-align: left;
-  }
+//   &--text {
+//     color: $primary;
+//     font-size: 30px;
+//     font-weight: 600;
+//     margin-top: 90px;
+//     text-align: left;
+//   }
+// }
+// .form-control{
+// color: $primary !important;
+// }
+
+
+label {
+  margin-top: 6px;
+  color: $primary;
 }
+.container-form{
+ width: 500px;
+ background: linear-gradient(#92624a,#fff);
+ margin: 100px auto;
+ box-shadow: $box-shadow;
+ border: $border;
+ border-radius: 8px;
+ -webkit-border-radius:8px;
+ -moz-border-radius:8px;
+ 
+}
+
+.jumbotron{
+  border-radius: 8px 8px 0 0;
+  padding: 16px;
+  -webkit-border-radius:8px 8px 0 0;
+  -moz-border-radius:8px 8px 0 0;
+  background: linear-gradient(#92624a,#fff);
+}
+.jumbotron h1{
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color:$primary;
+}
+.fcontacto{
+  padding: 14px;
+}
+.gtco-widget h3{
+color:$primary;
+
+}
+  

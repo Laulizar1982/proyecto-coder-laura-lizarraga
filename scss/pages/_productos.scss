@@ -5,20 +5,46 @@
   margin-bottom: 40px;
   padding: 60px 0;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
+  
   &--title {
-    color: $primary;
-    font-size: 30px;
+    color: #fff;
+    font-size: 35px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
     padding-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: black;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0%;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#000;
   }
 }
 
 .tz-gallery {
   padding: 60px;
+  background: linear-gradient(
+  to right,
+  hsla(34, 70%, 69%, 0.593),
+  hsla(34, 62%, 73%, 0.602)
+),
+url(../img/contactobg8.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: contain;
+background-attachment: fixed;
+position: relative;
+background-image: no-repeat;
+@media (min-width: 992px) {
+background-size: cover;
+}
 }
 .card {
   background: $light;

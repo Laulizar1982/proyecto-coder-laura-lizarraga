@@ -8269,14 +8269,14 @@ textarea.form-control-lg {
   justify-content: center;
   flex-direction: column;
   text-align: center; }
-  .header-text--title {
-    font-size: 60px;
-    font-weight: 900;
+  .header-text--title h1, .header-text--title .h1 {
+    font-size: 55px;
+    font-weight: 700;
     color: #1c5633;
     font-family: "Pacifico", cursive; }
-  .header-text--title2 {
+  .header-text--title2 h2, .header-text--title2 .h2 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     color: #5A380F; }
   @media (min-width: 375px) {
     .header-text {
@@ -8305,7 +8305,8 @@ textarea.form-control-lg {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 60px; }
   .container-locales--title {
     color: #5A380F;
     font-size: 30px;
@@ -8314,7 +8315,9 @@ textarea.form-control-lg {
   .container-locales p {
     padding: 15px 30px 30px 15px;
     font-weight: 500;
-    text-align: center; }
+    font-size: 20px;
+    text-align: center;
+    color: #5A380F; }
 
 .icon-cards {
   position: relative;
@@ -8390,17 +8393,17 @@ textarea.form-control-lg {
 
 .container-reservar {
   display: flex;
-  width: 100%;
+  height: 430px;
+  width: 90%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 100px; }
+  padding: 0;
+  margin-top: 150px; }
   .container-reservar--title {
     color: #5A380F;
     font-size: 30px;
-    margin-bottom: 30px;
-    margin-top: 50px;
     font-weight: 600;
     padding-left: 30px; }
   .container-reservar p {
@@ -8410,16 +8413,18 @@ textarea.form-control-lg {
     text-align: center;
     color: #5A380F; }
   .container-reservar img {
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     background-size: contain;
     background-attachment: fixed;
-    background-image: no-repeat; }
+    background-image: no-repeat;
+    text-align: center;
+    align-items: center; }
   @media (min-width: 992px) {
     .container-reservar {
-      background-size: cover;
-      width: 100%;
-      padding: 0; } }
+      position: relative;
+      padding: 0;
+      width: 100%; } }
 
 .btn {
   margin-top: 10px;
@@ -8430,7 +8435,9 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px; }
   .locales-container--title {
     color: #5A380F;
     font-size: 30px;
@@ -8438,39 +8445,66 @@ textarea.form-control-lg {
     padding-left: 30px;
     margin-top: 20px; }
 
-.card-img-top {
-  width: 100%;
-  height: 60vh;
-  text-align: center;
-  align-items: center; }
+.card {
+  padding-left: 10px;
+  padding-right: 10px; }
+  .card img {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    align-items: center; }
 
-.card-body--title {
-  color: #1c5633;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 500;
-  padding-left: 10px; }
-
-.card-body--text {
-  color: #5A380F; }
+.card-body {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .card-body--title {
+    color: #1c5633;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding-left: 10px; }
+  .card-body--text {
+    color: #5A380F;
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 .container-productos {
   color: #5A380F;
   margin-bottom: 40px;
   padding: 60px 0;
   width: 100%;
-  max-width: 1300px; }
+  max-width: 1500px; }
   .container-productos--title {
-    color: #5A380F;
-    font-size: 30px;
+    color: #fff;
+    font-size: 35px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
     padding-left: 10px;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    background-color: black;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0%; }
+  .container-productos p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000; }
 
 .tz-gallery {
-  padding: 60px; }
+  padding: 60px;
+  background: linear-gradient(to right, rgba(231, 183, 121, 0.593), rgba(229, 192, 143, 0.602)), url(../img/contactobg8.jpeg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: contain;
+  background-attachment: fixed;
+  position: relative;
+  background-image: no-repeat; }
+  @media (min-width: 992px) {
+    .tz-gallery {
+      background-size: cover; } }
 
 .card {
   background: #D6DBDF;
@@ -8513,23 +8547,39 @@ textarea.form-control-lg {
     width: 100% !important;
     text-align: center; } }
 
+label {
+  margin-top: 6px;
+  color: #5A380F; }
+
 .container-form {
-  margin-bottom: 20px;
-  background-image: url(../img/contactobg3.jpeg);
-  background-image: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -moz-background-size: cover;
-  padding-left: 20px; }
-  .container-form--text {
-    color: #5A380F;
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 90px;
-    text-align: left; }
+  width: 500px;
+  background: linear-gradient(#92624a, #fff);
+  margin: 100px auto;
+  box-shadow: 0 2px 10px 0 rgba 0, 0, 0, 0, 6;
+  border: solid 2px #1c5633;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px; }
+
+.jumbotron {
+  border-radius: 8px 8px 0 0;
+  padding: 16px;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  background: linear-gradient(#92624a, #fff); }
+
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #5A380F; }
+
+.fcontacto {
+  padding: 14px; }
+
+.gtco-widget h3, .gtco-widget .h3 {
+  color: #5A380F; }
 
 /*-- INICIO ESTILOS FOOTER-- */
 .container-fluid footer, .container-sm footer, .container-md footer, .container-lg footer, .container-xl footer, .container-xxl footer {
@@ -8566,4 +8616,5 @@ textarea.form-control-lg {
 html,
 body {
   height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #D6DBDF; }
