@@ -8438,10 +8438,12 @@ textarea.form-control-lg {
   margin-bottom: 10px; }
 
 .locales-container {
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
   margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px; }
@@ -8455,6 +8457,9 @@ textarea.form-control-lg {
     margin-bottom: 20px;
     padding-left: 0;
     padding-right: 0; }
+  @media (min-width: 375px) {
+    .locales-container {
+      height: 100%; } }
 
 .card {
   padding-left: 10px;
