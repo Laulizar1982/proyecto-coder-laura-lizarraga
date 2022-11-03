@@ -4,7 +4,7 @@
   padding: 60px 0;
   width: 100%;
   max-width: 1500px;
-  &--title {
+  &--subtitle {
     font-size: 35px;
     text-align: center;
     font-weight: 800;
@@ -17,7 +17,7 @@
     padding-right: 0;
     color: $light;
   }
-  p {
+  &--paragraph{
     font-size: 20px;
     text-align: center;
     font-weight: 700;
@@ -27,29 +27,19 @@
   }
 }
 
-.tz-gallery {
-  padding: 60px;
-  background: linear-gradient(
-      to right,
-      hsla(34, 70%, 69%, 0.593),
-      hsla(34, 62%, 73%, 0.602)
-    ),
-    url(../img/bgmenuproductos.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: contain;
-  background-attachment: fixed;
-  position: relative;
-  background-image: no-repeat;
-  @media (min-width: 992px) {
-    background-size: cover;
-  }
-}
 .card {
+  width: 100%;
+  padding: 30px 0;
+  overflow: hidden;
   background: $light;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
   text-decoration: none;
   color: $primary;
-  text-decoration: none;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+ 
   span h2 {
     font-weight: bold;
     font-size: 20px;
@@ -62,14 +52,15 @@
   margin: 0 auto;
 }
 .lightbox img {
-  width: 250px;
-  height: 250px;
+  width: 370px;
+  height: 350px;
   object-fit: cover;
   margin-bottom: 20px;
   transition: 0.2s ease-in-out;
   border-radius: 4px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   position: relative;
+  text-align: center;
   top: 1em;
   left: 0;
   right: 0;
@@ -78,4 +69,17 @@
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   }
+}
+.snipcart-details input.button {
+  display: block;
+  color: #fff;
+  background: $primary;
+  text-decoration: none;
+  font-weight: 700;
+ text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px 0;
+  
 }

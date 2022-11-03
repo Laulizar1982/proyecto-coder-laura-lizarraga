@@ -1,70 +1,54 @@
 
-// .container-form {
-//   margin-bottom: 20px;
-//   background-image: url(../img/contactobg3.jpeg);
-//   background-image: no-repeat;
-//   background-size: cover;
-//   background-attachment:fixed;
-//   background-position:center;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -moz-background-size:cover;
-//   padding-left: 20px;
-//   &form-control{
-//     color: $primary;
-//   }
 
-//   &--text {
-//     color: $primary;
-//     font-size: 30px;
-//     font-weight: 600;
-//     margin-top: 90px;
-//     text-align: left;
-//   }
-// }
-// .form-control{
-// color: $primary !important;
-// }
-
-
-label {
-  margin-top: 6px;
-  color: $primary;
+.container-form {
+  padding: 20px;
+  
 }
-.container-form{
- width: 500px;
- background: linear-gradient(#92624a,#fff);
- margin: 100px auto;
- box-shadow: $box-shadow;
- border: $border;
- border-radius: 8px;
- -webkit-border-radius:8px;
- -moz-border-radius:8px; 
-}
-.jumbotron{
-  border-radius: 8px 8px 0 0;
-  padding: 16px;
-  -webkit-border-radius:8px 8px 0 0;
-  -moz-border-radius:8px 8px 0 0;
-  background: linear-gradient(#92624a,#fff);
+form{
+  margin: auto;
+  max-width: 1100px;
+  padding: 80px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  box-shadow: $box-shadow;
+  border: $border;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: $green;
+  box-sizing: border-box;
   h1{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    margin-top: 20px;
-    font-weight: 600;
-    color:$primary;
+    margin:0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: $white;
+    text-align: center;
+    font-family: "Pacifico";
+  }
+  label{
+    color: $white;
+    font-weight: 400;
+  }
+
+}
+
+
+.info{
+  padding: 2rem;
+  margin-bottom: 3rem;
+  color: $white;
+  background-color: #222222;
+  text-align: justify;
+  font-size: 20px;
+    margin:0;
+    font-weight: 400;
+}
+.social-media{
+  list-style: none;
+  background-color: #222222;
+  a{
+  color: $white;
   }
 }
-.fcontacto{
-  padding: 14px;
-}
-.gtco-widget h3{
-color:$primary;
-font-size: 30px;
-text-align: center;
-margin-top: 20px;
-font-weight: 600;
-color:$primary;
-}
-
-  

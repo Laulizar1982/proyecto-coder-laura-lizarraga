@@ -1,128 +1,193 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Café, CAFE, Cafetería, CAFETERIA, experiencia Café"
+    />
+    <meta
+      name="description"
+      content="Te invitamos a vivir una nueva forma de descubrir el café"
+    />
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
+      rel="stylesheet"
+    />
+    <title>Sweet Cafee</title>
+  </head>
 
+  <body>
+    <!-- INICIO DEL MENU DE NAVEGACION -->
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top bg-green">
+          <a href="../index.html" class="navbar-brand">
+            <img
+              src="../img/SC-LOGO-HORIZONTAL.png"
+              width="300px"
+              alt="logo empresa"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navg navbar-nav w-100 justify-content-end">
+              <a class="nav-item nav-link" href="../index.html">INICIO</a>
+              <a class="nav-item nav-link" href="../pages/locales.html"
+                >LOCALES</a
+              >
+              <a class="nav-item nav-link" href="../pages/menu.html">MENÚ</a>
+              <a class="nav-item nav-link" href="../pages/nosotros.html"
+                >NOSOTROS</a
+              >
+              <a class="nav-item nav-link" href="../pages/contacto.html"
+                >CONTACTO</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- FIN DEL MENU DE NAVEGACION -->
+    <!-- INICIO CONTACTO -->
+    <main>
+      <div class="container-form">
+        <form>
+          <h1>Contáctese con nosotros</h1>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <label>Tu Nombre:</label>
+              <input type="text" name="name" id="name" class="form-control" />
+              <label>Tu e-mail:</label>
+              <input type="text" name="email" id="email" class="form-control" />
+              <label>Asunto:</label>
+              <input
+                type="text"
+                name="asunto"
+                id="asunto"
+                class="form-control"
+              />
+              <label>Texto de contacto:</label>
+              <textarea
+                class="form-control"
+                name="mensaje"
+                id="mensaje"
+                rows="10"
+                cols="30"
+              ></textarea>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Quiero recibir novedades por mail
+                </label>
+              <button href="#" class="btn btn-white">Enviar</button>
+              </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <br />
+                <p class="info">
+                  <strong>Contáctanos</strong>
+                  <br />
+                  Ponte en contacto para recibir más información sobre nuestros
+                  productos o realizar una reserva para tu evento especial.
+                </p>
+                <ul class="social-media">
+                  <li>
+                    <a href="#"><i class="fa fa-phone"></i>0800-122-0129</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-envelope-open"></i
+                      >info@sweet&coffee.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-commenting-o"></i> Live Chat</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </form>
+      </div>
+    </main>
+    <!-- FIN CONTACTO-->
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Café, CAFE, Cafetería, CAFETERIA, experiencia Café">
-    <meta name="description" content="Te invitamos a vivir una nueva forma de descubrir el café">
-  <link rel="shortcut icon" href="../img/favicon.ico" />
-  <link rel="stylesheet" href="../css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
-    rel="stylesheet">
-  <title>Sweet Cafee</title>
-</head>
-
-<body>
-<!-- INICIO DEL MENU DE NAVEGACION -->
-<header>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top bg-green">
-      <a href="../index.html" class="navbar-brand">
-        <img src="../img/logosweet&coffee.png" width="80px" alt="logo empresa"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="navg navbar-nav w-100 justify-content-end">
-              <a class="nav-item nav-link"  href="../index.html">INICIO</a>
-              <a class="nav-item nav-link" href="../pages/locales.html">LOCALES</a>
-              <a class="nav-item nav-link" href="../pages/productos.html">PRODUCTOS</a>
-              <a class="nav-item nav-link" href="../pages/nosotros.html">NOSOTROS</a>
-              <a class="nav-link active" aria-current="page" href="../pages/contacto.html">CONTACTO</a>      
+    <!-- INICIO DE FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <img
+          src="../img/FinFooter.jpg"
+          alt="logo footer sweet&coffee"
+          width="100%"
+          height="auto"
+        />
+        <div class="row align-items-center">
+          <div>
+            <h2 class="display-2">Seguinos en todas las redes</h2>
           </div>
         </div>
+        <div>
+          <ul class="fa-ul">
+            <li>
+              <a target="_blank" href="#">
+                <i
+                  class="fs-2 bg-white fab me-3 fa fa-facebook"
+                  aria-hidden="true"
+                ></i>
+              </a>
+              <a
+                target="_blank"
+                href="#"
+                class="fs-2 bg-white fab me-3 fa fa-instagram"
+                aria-hidden="true"
+              >
+              </a>
+              <a
+                target="_blank"
+                href="#"
+                class="fs-2 bg-white fab me-3 fa fa-youtube"
+                aria-hidden="true"
+              >
+              </a>
+              <a
+                target="_blank"
+                href="#"
+                class="fs-2 bg-white fab me-3 fa fa-twitter"
+                aria-hidden="true"
+              >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="group-2">
+          <small>
+            &copy; 2022 <b>Sweet&Coffee</b>-Todos los derechos
+            reservados.</small
+          >
+        </div>
       </div>
-    </nav>
-  </header>
-<!-- FIN DEL MENU DE NAVEGACION -->
-<!-- INICIO CONTACTO -->
-
-<main class="main">
-<div class="container-form">
-<div class="jumbotron">
-  <h1>Contactenos</h1>
-</div>
-<div class="fcontacto">
-  <div class="row text-align-center">
-  <img width="300px" height="300px" src="../img/bgcontactoform.jpeg" alt="contactame">
-  </div>
-  <form method="post" name="fcontacto" id="fcontacto" action="./">
-  <div class="row">
-    <div class="col-md-6">
-  <label>Tu Nombre:</label>
-  <input type="text" name="name" id="name" class="form-control">
-  </div>
-  <div class="col-md-6">
-  <label>Tu e-mail:</label>
-  <input type="text" name="email" id="email" class="form-control">
-  </div>
-  </div>
-  <label>Asunto:</label>
-  <input type="text" name="asunto" id="asunto" class="form-control">
-  <label>Texto de contacto:</label>
-  <textarea class="form-control" name="mensaje" id="mensaje"rows="10" cols="30"></textarea>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Quiero recibir novedades por mail
-      </label>
-    </div>
-  </div>
-  <div class="col-6">
-    <button href="#" class="btn btn-primary">Enviar</button>
-  </div>
-  </div>
-  </div>
-  </form>
-  <div class="col-md-12 text-center">
-    <div class="gtco-widget">
-      <h3>Comunicate con nosotros</h3>
-      <ul class="gtco-quick-contact">
-        <li><a href="#"><i class="fa fa-phone"></i> 0800-122-0129</a></li>
-        <li><a href="#"><i class="fa fa-envelope-open"></i> info@sweet&coffee.com.ar</a></li>
-        <li><a href="#"><i class="fa fa-commenting-o"></i> Live Chat</a></li>
-      </ul>
-    </div>
-  </main>
-<!-- FIN CONTACTO-->
-
-  <!-- INICIO DE FOOTER -->
-
-  <footer class="container-fluid footer">
-    <div >
-      <img class="img-fluid rounded m-6" src="../img/FinFooter.jpg" alt="logo footer sweet&coffee"/>
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-5 mb-md-0">
-        <h1 class="display-2">Seguinos en todas las redes</h1>
-      </div>
-      </div>
-     <div class="social-media-links">
-        <ul>
-          <li>             
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </li>
-        </ul>
-    </div>
-    </div>
-    <div class="group-2">
-      <small> &copy; 2022 <b>Sweet&Coffee</b>-Todos los derechos reservados.</small>
-    </div>
-  </footer>
-      <!-- FIN DE FOOTER -->
-  <!-- INICIO DE SCRIPTS -->
-      <script src="https://use.fontawesome.com/dba5fe51fd.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- <!-- FIN DE SCRIPTS -->
-
-</body>
-
+    </footer>
+    <!-- FIN DE FOOTER -->
+    <!-- INICIO DE SCRIPTS -->
+    <script src="https://use.fontawesome.com/dba5fe51fd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FIN DE SCRIPTS -->
+  </body>
 </html>

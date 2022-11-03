@@ -1,17 +1,19 @@
 //Variables
 $primary:#5A380F;
-$secondary: #92624a;
+$white:#fff;
+$secondary:#8d5b42;
 $green:rgb(28,86,51);
 $grey:#F5F5F5;
 $light: #D6DBDF;
 $dark: #85929E;
 $cta: #857345;
 $border: solid 2px rgb(28,86,51);
-$box-shadow: 0 2px 10px 0 rgba (0, 0, 0, 0, 6);
+$box-shadow: 0 6px 8px 0 rgba (0, 0, 0, 0, 6);
 
 
 $theme-colors: (
   "primary": $primary,
+  "white":$white,
   "secondary": $secondary,
   "light": $light,
   "dark": $dark,

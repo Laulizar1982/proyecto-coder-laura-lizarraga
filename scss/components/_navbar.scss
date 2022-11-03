@@ -1,24 +1,23 @@
 .navbar {
-
   font-size: 15px;
-  background-color:	$nav-link-color;
-  font-family: 'Roboto';
-  font-style: oblique;
-  li{
-    display: inline;
-    
-    a {
-      color:$secondary;
-      text-decoration: none;
-      padding: $nav-link-padding-x;
-          
-      &:hover {
-      text-decoration:solid;
-      }
-    }
+  background-color: $nav-link-color;
   }
+
+
+.navbar-toggler-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.navg a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 15 px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color:#fff;
+    color: black;
   }
-  .navbar-toggler-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
+}

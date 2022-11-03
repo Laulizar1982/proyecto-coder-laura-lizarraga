@@ -1,12 +1,11 @@
 // Include any default variable overrides here (though functions won't be available)
 @import "./complements/variables";
 
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
-
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./complements/mixins";
 @import "./pages/index";
 @import "./pages/locales";
-@import "./pages/productos";
+@import "./pages/menu";
 @import "./pages/nosotros";
 @import "./pages/contacto";
 @import "./components/footer";
@@ -16,5 +15,4 @@ html,
 body {
   height: 100%;
   overflow-x: hidden;
-  color: $light;
 }
