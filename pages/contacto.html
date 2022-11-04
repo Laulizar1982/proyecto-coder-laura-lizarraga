@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
     <title>Sweet Cafee</title>
@@ -29,7 +29,7 @@
           <a href="../index.html" class="navbar-brand">
             <img
               src="../img/SC-LOGO-HORIZONTAL.png"
-              width="300px"
+              width="200px"
               alt="logo empresa"
           /></a>
           <button
@@ -64,80 +64,73 @@
     <!-- FIN DEL MENU DE NAVEGACION -->
     <!-- INICIO CONTACTO -->
     <main>
-      <div class="container-form">
+      <div class="container-form container-fluid">
         <form>
           <h1>Contáctese con nosotros</h1>
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <label>Tu Nombre:</label>
-              <input type="text" name="name" id="name" class="form-control" />
-              <label>Tu e-mail:</label>
-              <input type="text" name="email" id="email" class="form-control" />
-              <label>Asunto:</label>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <label for="name">Tu Nombre:</label>
+              <input type="text" id="name" class="form-control"/>
+              <label for="email">Tu e-mail:</label>
+              <input type="text" id="email" class="form-control" />
+              <label for="subject">Asunto:</label>
               <input
                 type="text"
-                name="asunto"
-                id="asunto"
+                id="subject"
                 class="form-control"
               />
-              <label>Texto de contacto:</label>
+              <label for="message">Texto de contacto:</label>
               <textarea
                 class="form-control"
-                name="mensaje"
-                id="mensaje"
+                id="message"
                 rows="10"
                 cols="30"
               ></textarea>
               <div class="form-check">
                 <input
-                  class="form-check-input"
+                  class="form-check-input mt-3"
                   type="checkbox"
                   id="gridCheck"
                 />
-                <label class="form-check-label" for="gridCheck">
+                <label class="form-check-label mt-3" for="gridCheck">
                   Quiero recibir novedades por mail
                 </label>
-              <button href="#" class="btn btn-white">Enviar</button>
               </div>
+              <div>
+                <button href="#" class="btn btn-white">Enviar</button>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="info">
                 <br />
-                <p class="info">
+                <p>
                   <strong>Contáctanos</strong>
                   <br />
                   Ponte en contacto para recibir más información sobre nuestros
-                  productos o realizar una reserva para tu evento especial.
+                  productos o realizar una reserva para tu evento especial
                 </p>
-                <ul class="social-media">
+                <ul class="container-fluid social-media">
                   <li>
-                    <a href="#"><i class="fa fa-phone"></i>0800-122-0129</a>
+                    <a href="#"><i class="fa fa-phone p-2"></i>0800-122-0129</a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><i class="fa fa-envelope-open"></i
-                      >info@sweet&coffee.com</a
-                    >
+                    <a href="#"><i class="fa fa-envelope-open p-2"></i>info@sweet&coffee.com</a>
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-commenting-o"></i> Live Chat</a>
+                    <a href="#"><i class="fa fa-commenting-o p-2"></i>Live Chat</a>
                   </li>
                 </ul>
               </div>
+              </div>
             </div>
-        </form>
-      </div>
+          </form>
+          </div>
     </main>
     <!-- FIN CONTACTO-->
 
     <!-- INICIO DE FOOTER -->
     <footer>
       <div class="footer-container">
-        <img
-          src="../img/FinFooter.jpg"
-          alt="logo footer sweet&coffee"
-          width="100%"
-          height="auto"
-        />
         <div class="row align-items-center">
           <div>
             <h2 class="display-2">Seguinos en todas las redes</h2>
@@ -149,33 +142,37 @@
               <a target="_blank" href="#">
                 <i
                   class="fs-2 bg-white fab me-3 fa fa-facebook"
-                  aria-hidden="true"
                 ></i>
               </a>
               <a
                 target="_blank"
                 href="#"
                 class="fs-2 bg-white fab me-3 fa fa-instagram"
-                aria-hidden="true"
               >
               </a>
               <a
                 target="_blank"
                 href="#"
                 class="fs-2 bg-white fab me-3 fa fa-youtube"
-                aria-hidden="true"
               >
               </a>
               <a
                 target="_blank"
                 href="#"
                 class="fs-2 bg-white fab me-3 fa fa-twitter"
-                aria-hidden="true"
               >
               </a>
             </li>
           </ul>
         </div>
+        <div>
+        <img
+        src="../img/FinFooter.jpg"
+        alt="logo footer sweet&coffee"
+        width="100%"
+        height="auto"
+      />
+      </div>
         <div class="group-2">
           <small>
             &copy; 2022 <b>Sweet&Coffee</b>-Todos los derechos

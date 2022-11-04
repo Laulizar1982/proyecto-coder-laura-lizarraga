@@ -1,57 +1,45 @@
 //Productos
-.container-productos {
-  margin-bottom: 40px;
+.container-menu {
+  margin-bottom: 100px;
   padding: 60px 0;
   width: 100%;
   max-width: 1500px;
-  &--subtitle {
-    font-size: 35px;
+  &--title {
+    font-size: 30px;
     text-align: center;
-    font-weight: 800;
-    padding-left: 10px;
-    margin-top: 20px;
+    margin:0;
     margin-bottom: 20px;
-    background-color: black;
-    background-size: cover;
-    padding-left: 0;
-    padding-right: 0;
-    color: $light;
-  }
-  &--paragraph{
-    font-size: 20px;
+    font-weight: 300;
+    color: $white;
     text-align: center;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #000;
+    font-family: "Pacifico";
   }
+ 
 }
 
-.card {
+.container-cards {
   width: 100%;
   padding: 30px 0;
   overflow: hidden;
-  background: $light;
+  background: $white;
   border-radius: 10px;
   position: relative;
   text-align: center;
   text-decoration: none;
   color: $primary;
-  margin-bottom: 40px;
-  margin-top: 40px;
- 
-  span h2 {
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    color: $primary;
-  }
+  margin-bottom: 0px;
+  margin-top: 60px;
 }
-.row match-to-row {
-  max-width: 100%;
-  margin: 0 auto;
+
+.card-product{
+width: 100%;
+content{
+  height: 200px;
+	padding: 20px 10px 0 10px;
+	overflow: hidden;
+  color:$primary
 }
-.lightbox img {
+  img {
   width: 370px;
   height: 350px;
   object-fit: cover;
@@ -69,17 +57,43 @@
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   }
+   body {
+    display: block;
+    background: $green;
+    text-decoration: none;
+    font-weight: 700;
+   text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px 0; 
+    margin-bottom: 40px;
+  }
+    .menu-button{
+    display: block;
+     color: $white;
+     background-color: $green;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px 0; 
+  }
 }
-.snipcart-details input.button {
-  display: block;
-  color: #fff;
-  background: $primary;
-  text-decoration: none;
-  font-weight: 700;
- text-align: center;
-  text-decoration: none;
-  border-radius: 6px;
-  width: 100%;
-  padding: 12px 0;
+}
+
+// .snipcart-details input.button {
+//   display: block;
+//   color: #fff;
+//   background: $primary;
+//   text-decoration: none;
+//   font-weight: 700;
+//  text-align: center;
+//   text-decoration: none;
+//   border-radius: 6px;
+//   width: 100%;
+//   padding: 12px 0;
   
-}
+// }
