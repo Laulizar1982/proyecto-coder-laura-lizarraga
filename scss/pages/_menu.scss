@@ -1,22 +1,22 @@
 //Productos
 .container-menu {
-  margin-bottom: 100px;
-  padding: 60px 0;
-  width: 100%;
-  max-width: 1500px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   &--title {
-    font-size: 30px;
-    text-align: center;
-    margin:0;
-    margin-bottom: 20px;
-    font-weight: 300;
-    color: $white;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    color: $green;
     text-align: center;
     font-family: "Pacifico";
   }
- 
+  @media (min-width: 375px) {
+    height: 80%;
+  }
 }
-
 .container-cards {
   width: 100%;
   padding: 30px 0;
@@ -28,72 +28,44 @@
   text-decoration: none;
   color: $primary;
   margin-bottom: 0px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
-
 .card-product{
-width: 100%;
-content{
-  height: 200px;
-	padding: 20px 10px 0 10px;
-	overflow: hidden;
-  color:$primary
-}
-  img {
-  width: 370px;
-  height: 350px;
-  object-fit: cover;
-  margin-bottom: 20px;
-  transition: 0.2s ease-in-out;
-  border-radius: 4px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  border-radius: 10px;
+  color: $primary;
+  img{
   position: relative;
-  text-align: center;
-  top: 1em;
-  left: 0;
-  right: 0;
-  bottom: 1em;
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  padding: 0;
   }
-   body {
-    display: block;
-    background: $green;
-    text-decoration: none;
-    font-weight: 700;
-   text-align: center;
-    text-decoration: none;
-    border-radius: 6px;
-    width: 100%;
-    padding: 12px 0; 
-    margin-bottom: 40px;
+  body{
+  width: 298px;
+  border-radius: 0 0 10px 10px;
+  height: 250px;
   }
-    .menu-button{
-    display: block;
-     color: $white;
-     background-color: $green;
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 6px;
-    width: 100%;
-    padding: 12px 0; 
+  price{
+  font-size: 20px;
+  color: $primary;
   }
-}
+  content{
+  height: 200px;
+  padding: 20px 10px 0 10px;
+  overflow: hidden;
+  color: $primary;
+  }
 }
 
-// .snipcart-details input.button {
-//   display: block;
-//   color: #fff;
-//   background: $primary;
-//   text-decoration: none;
-//   font-weight: 700;
-//  text-align: center;
-//   text-decoration: none;
-//   border-radius: 6px;
-//   width: 100%;
-//   padding: 12px 0;
-  
-// }
+.card-product-options{
+  height: 40px;
+  button{
+    background-color:$green;
+    color: $white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+

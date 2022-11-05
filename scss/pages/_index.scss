@@ -28,10 +28,9 @@
   }
 }
 
-
 .container-header {
   padding-top: 30px;
-	padding-bottom: 10px;
+  padding-bottom: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
@@ -49,12 +48,12 @@
     font-weight: 600;
     color: $green;
   }
-@media (min-width: 992px) {
-  padding-top: 50px;
-	padding-bottom: 50px;
-  margin-bottom: 30px;
-  margin-top: 50px;
-}
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
 }
 .cta {
   padding: 20px 30px;
@@ -71,9 +70,9 @@
   bottom: 0;
   width: 100%;
 }
-.container-web-page{
-	padding-top: 40px;
-	padding-bottom: 20px;
+.container-web-page {
+  padding-top: 40px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
   &--title {
@@ -87,10 +86,10 @@
   }
   @media (min-width: 375px) {
     height: 80%;
-}
+  }
 }
 
-.experiencia-card{
+.experiencia-card {
   text-decoration: none;
   color: $primary;
   text-decoration: none;
@@ -103,62 +102,58 @@
     text-align: center;
     margin-bottom: 20px;
   }
-  p{
+  p {
     font-size: 20px;
     text-align: justify;
     font-weight: 700;
     margin-right: 50px;
     margin-left: 50px;
-    color: $primary
+    color: $primary;
   }
 }
-  .img-rounded{
-    height: auto;
-    max-width: 100%;
-  }
-
 .card-product{
-	width: 300px;
-	height: auto;
-	margin: 15px;
-	position: relative;
-	border-radius: 10px;
-	color:$primary;
-}
-.card-product-img,
-.card-product-body{
-	position: relative;
-	width: 298px;
-}
-.card-product-img{
-	height: 400px;
-	overflow: hidden;
-	border-radius: 10px 10px 0 0;
-	margin: 0;
-	padding: 0;
-}
-.card-product-img img{
-	width: 100%;
-	height: calc(100% - 1px);
-}
-.card-product-body{
-	border-radius: 0 0 10px 10px;
-	height: 250px;
-}
-.card-product-price{
-	font-size: 20px;
-	color:$primary;
-}
-.card-product-content{
-	height: 200px;
-	padding: 20px 10px 0 10px;
-	overflow: hidden;
-  color:$primary
-}
-.card-product-content:hover{
-	overflow: auto;
-}
+  margin: 15px;
+  border-radius: 10px;
+  color: $primary;
+  img{
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  }
+  body{
+    border-radius: 0 0 10px 10px;
+  }
+  price{
+  font-size: 20px;
+  color: $primary;
+  }
+  content{
+  padding: 20px 10px 0 10px;
+  overflow: hidden;
+  color: $primary;
+  }
+  &hover{
+    overflow: auto;  
+  }
+  }
 .card-product-options{
-	height: 20px;
+  height: 40px;
+  button{
+    background-color: $green;
+    color: $white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+.menu-button{
+  text-align: center;
+}
+.img-rounded{
+  height: auto;
+  max-width: 100%;
 }
 
