@@ -3,7 +3,7 @@
 .main-header {
   width: 100%;
   min-height: 100vh;
-  height: 600px;
+  height: 200px;
   top: 0;
   left: 0;
   background: #f4bd76; /* fallback for old browsers */
@@ -24,31 +24,36 @@
   background-image: no-repeat;
   @media (min-width: 992px) {
     background-size: cover;
+    height: 600px;
   }
 }
 
 
 .container-header {
-  padding-top: 50px;
-	padding-bottom: 20px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  padding-top: 30px;
+	padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  min-height: 100vh;
   &--title {
     font-size: 45px;
     font-weight: 700;
     color: $green;
     font-family: "Pacifico";
     padding: 30px auto;
-   
+    margin-top: 80px;
+  }
   &--subtitle {
     font-size: 30px;
     font-weight: 600;
     color: $green;
-    text-align: justify;
   }
-}
-@media (min-width: 375px) {
-  height: 80%;
+@media (min-width: 992px) {
+  padding-top: 50px;
+	padding-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 }
 .cta {
@@ -66,16 +71,16 @@
   bottom: 0;
   width: 100%;
 }
-
-
 .container-web-page{
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 20px;
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   &--title {
-    font-size: 30px;
-    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
     color: $green;
     text-align: center;
     font-family: "Pacifico";
@@ -84,14 +89,33 @@
     height: 80%;
 }
 }
-/* estilos cards*/
-.container-cards{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-  align-items: center;
-  max-width: 1000px;
-  overflow: hidden;
+
+.experiencia-card{
+  text-decoration: none;
+  color: $primary;
+  text-decoration: none;
+  margin-top: 50px;
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: $green;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 700;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: $primary
+  }
+}
+  .img-rounded{
+    height: auto;
+    max-width: 100%;
+  }
 
 .card-product{
 	width: 300px;
@@ -137,4 +161,4 @@
 .card-product-options{
 	height: 20px;
 }
-}
+

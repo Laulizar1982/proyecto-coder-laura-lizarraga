@@ -8304,7 +8304,7 @@ textarea.form-control-lg {
 .main-header {
   width: 100%;
   min-height: 100vh;
-  height: 600px;
+  height: 200px;
   top: 0;
   left: 0;
   background: #f4bd76;
@@ -8319,27 +8319,33 @@ textarea.form-control-lg {
   background-image: no-repeat; }
   @media (min-width: 992px) {
     .main-header {
-      background-size: cover; } }
+      background-size: cover;
+      height: 600px; } }
 
 .container-header {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-  margin-top: 50px; }
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  min-height: 100vh; }
   .container-header--title {
     font-size: 45px;
     font-weight: 700;
     color: #1c5633;
     font-family: "Pacifico";
-    padding: 30px auto; }
-    .container-header--title--subtitle {
-      font-size: 30px;
-      font-weight: 600;
-      color: #1c5633;
-      text-align: justify; }
-  @media (min-width: 375px) {
+    padding: 30px auto;
+    margin-top: 80px; }
+  .container-header--subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1c5633; }
+  @media (min-width: 992px) {
     .container-header {
-      height: 80%; } }
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-bottom: 30px;
+      margin-top: 50px; } }
 
 .cta {
   padding: 20px 30px;
@@ -8357,13 +8363,15 @@ textarea.form-control-lg {
   width: 100%; }
 
 .container-web-page {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
-  margin-top: 40px; }
+  margin-top: 20px; }
   .container-web-page--title {
-    font-size: 30px;
-    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
     color: #1c5633;
     text-align: center;
     font-family: "Pacifico"; }
@@ -8371,49 +8379,73 @@ textarea.form-control-lg {
     .container-web-page {
       height: 80%; } }
 
-/* estilos cards*/
-.container-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 1000px;
-  overflow: hidden; }
-  .container-cards .card-product {
-    width: 300px;
-    height: auto;
-    margin: 15px;
-    position: relative;
-    border-radius: 10px;
-    color: #5A380F; }
-  .container-cards .card-product-img,
-  .container-cards .card-product-body {
-    position: relative;
-    width: 298px; }
-  .container-cards .card-product-img {
-    height: 400px;
-    overflow: hidden;
-    border-radius: 10px 10px 0 0;
-    margin: 0;
-    padding: 0; }
-  .container-cards .card-product-img img {
-    width: 100%;
-    height: calc(100% - 1px); }
-  .container-cards .card-product-body {
-    border-radius: 0 0 10px 10px;
-    height: 250px; }
-  .container-cards .card-product-price {
+.experiencia-card {
+  text-decoration: none;
+  color: #5A380F;
+  text-decoration: none;
+  margin-top: 50px; }
+  .experiencia-card h2, .experiencia-card .h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #1c5633;
+    text-align: center;
+    margin-bottom: 20px; }
+  .experiencia-card p {
     font-size: 20px;
+    text-align: justify;
+    font-weight: 700;
+    margin-right: 50px;
+    margin-left: 50px;
     color: #5A380F; }
-  .container-cards .card-product-content {
-    height: 200px;
-    padding: 20px 10px 0 10px;
-    overflow: hidden;
-    color: #5A380F; }
-  .container-cards .card-product-content:hover {
-    overflow: auto; }
-  .container-cards .card-product-options {
-    height: 20px; }
+
+.img-rounded {
+  height: auto;
+  max-width: 100%; }
+
+.card-product {
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  position: relative;
+  border-radius: 10px;
+  color: #5A380F; }
+
+.card-product-img,
+.card-product-body {
+  position: relative;
+  width: 298px; }
+
+.card-product-img {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  padding: 0; }
+
+.card-product-img img {
+  width: 100%;
+  height: calc(100% - 1px); }
+
+.card-product-body {
+  border-radius: 0 0 10px 10px;
+  height: 250px; }
+
+.card-product-price {
+  font-size: 20px;
+  color: #5A380F; }
+
+.card-product-content {
+  height: 200px;
+  padding: 20px 10px 0 10px;
+  overflow: hidden;
+  color: #5A380F; }
+
+.card-product-content:hover {
+  overflow: auto; }
+
+.card-product-options {
+  height: 20px; }
 
 .locales-container {
   display: flex;
@@ -8421,22 +8453,52 @@ textarea.form-control-lg {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 20px;
   margin-right: 20px; }
   .locales-container--title {
-    color: #5A380F;
-    font-size: 35px;
+    color: #1c5633;
+    font-size: 40px;
     text-align: center;
     font-weight: 800;
-    padding-left: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    font-family: "Pacifico"; }
+
+.locales-card {
+  text-decoration: none;
+  color: #5A380F;
+  text-decoration: none;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+  .locales-card h2, .locales-card .h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1c5633;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px; }
+  .locales-card p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #5A380F; }
   @media (min-width: 375px) {
-    .locales-container {
-      height: 100%; } }
+    .locales-card {
+      padding-left: 25px;
+      padding-right: 25px; } }
+
+.img-rounded {
+  border-radius: 10px;
+  margin-bottom: 40px; }
 
 .container-menu {
   margin-bottom: 100px;
@@ -8523,12 +8585,12 @@ textarea.form-control-lg {
   margin-top: 100px; }
   .container-nosotros--title {
     color: #1c5633;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-weight: 300;
     padding-left: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-left: 0;
     padding-right: 0;
     font-family: "Pacifico"; }
@@ -8542,7 +8604,7 @@ textarea.form-control-lg {
   text-decoration: none; }
   .nosotros-card h2, .nosotros-card .h2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     color: #fff;
     background-color: #1c5633;
@@ -8550,7 +8612,7 @@ textarea.form-control-lg {
     margin-right: 50px;
     margin-left: 50px; }
   .nosotros-card p {
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
     font-weight: 700;
     margin-top: -80px;
@@ -8558,6 +8620,10 @@ textarea.form-control-lg {
     margin-right: 50px;
     margin-left: 50px;
     color: #5A380F; }
+
+.img-rounded {
+  border-radius: 10px;
+  margin-bottom: 40px; }
 
 .container-form {
   padding: 20px; }
