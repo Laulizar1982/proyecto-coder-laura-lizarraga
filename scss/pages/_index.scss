@@ -70,26 +70,34 @@
   bottom: 0;
   width: 100%;
 }
-.container-web-page {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+// contenido principal
+
+.container-experience {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
   &--title {
-    margin-bottom: 40px;
-    margin-top: 30px;
-    font-size: 35px;
-    font-weight: 600;
     color: $green;
+    font-size: 40px;
     text-align: center;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
     font-family: "Pacifico";
   }
   @media (min-width: 375px) {
-    height: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
-
-.experiencia-card {
+.experience-card {
   text-decoration: none;
   color: $primary;
   text-decoration: none;
@@ -111,49 +119,65 @@
     color: $primary;
   }
 }
-.card-product{
+.img-rounded {
+  height: 400px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.container-popular-coffee {
+  width: 100%;
+  margin: auto;
+  &--title {
+    color: $green;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Pacifico";
+  }
+}
+.card-product {
   margin: 15px;
   border-radius: 10px;
   color: $primary;
-  img{
-  position: relative;
-  height: auto;
-  overflow: hidden;
-  border-radius: 10px 10px 0 0;
-  margin: 0;
-  padding: 0;
-  width: 700px;
+  img {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0;
+    width: 400px;
   }
-  body{
+  body {
     border-radius: 0 0 10px 10px;
   }
-  price{
-  font-size: 20px;
-  color: $primary;
+  price {
+    font-size: 20px;
+    color: $primary;
   }
-  content{
-  padding: 20px 10px 0 10px;
-  overflow: hidden;
-  color: $primary;
+  content {
+    padding: 20px 10px 0 10px;
+    overflow: hidden;
+    color: $primary;
   }
-  &hover{
-    overflow: auto;  
+  &hover {
+    overflow: auto;
   }
-  }
-.card-product-options{
+}
+.card-product-options {
   height: 40px;
-  button{
+  button {
     background-color: $green;
     color: $white;
     font-weight: bold;
     font-size: 15px;
   }
 }
-.menu-button{
+.menu-button {
   text-align: center;
 }
-.img-rounded{
-  height: auto;
-  max-width: 100%;
-}
-

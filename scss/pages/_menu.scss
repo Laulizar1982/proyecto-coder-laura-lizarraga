@@ -30,42 +30,40 @@
   margin-bottom: 0px;
   margin-top: 20px;
 }
-.card-product{
+.card-product {
   margin: 15px;
   border-radius: 10px;
   color: $primary;
-  img{
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-  border-radius: 10px 10px 0 0;
-  margin: 0;
-  padding: 0;
+  img {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0;
   }
-  body{
-  width: 298px;
-  border-radius: 0 0 10px 10px;
-  height: 250px;
+  body {
+    width: 298px;
+    border-radius: 0 0 10px 10px;
+    height: 250px;
   }
-  price{
-  font-size: 20px;
-  color: $primary;
+  price {
+    font-size: 20px;
+    color: $primary;
   }
-  content{
-  height: 200px;
-  padding: 20px 10px 0 10px;
-  overflow: hidden;
-  color: $primary;
+  content {
+    height: 200px;
+    padding: 20px 10px 0 10px;
+    overflow: hidden;
+    color: $primary;
   }
 }
-
-.card-product-options{
+.card-product-options {
   height: 40px;
-  button{
-    background-color:$green;
+  button {
+    background-color: $green;
     color: $white;
     font-weight: bold;
     font-size: 15px;
   }
 }
-

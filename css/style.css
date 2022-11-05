@@ -8362,42 +8362,69 @@ textarea.form-control-lg {
   bottom: 0;
   width: 100%; }
 
-.container-web-page {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px; }
-  .container-web-page--title {
-    margin-bottom: 40px;
-    margin-top: 30px;
-    font-size: 35px;
-    font-weight: 600;
+.container-experience {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px; }
+  .container-experience--title {
     color: #1c5633;
+    font-size: 40px;
     text-align: center;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
     font-family: "Pacifico"; }
   @media (min-width: 375px) {
-    .container-web-page {
-      height: 80%; } }
+    .container-experience {
+      padding-left: 25px;
+      padding-right: 25px; } }
 
-.experiencia-card {
+.experience-card {
   text-decoration: none;
   color: #5A380F;
   text-decoration: none;
   margin-top: 50px; }
-  .experiencia-card h2, .experiencia-card .h2 {
+  .experience-card h2, .experience-card .h2 {
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
     color: #1c5633;
     text-align: center;
     margin-bottom: 20px; }
-  .experiencia-card p {
+  .experience-card p {
     font-size: 20px;
     text-align: justify;
     font-weight: 700;
     margin-right: 50px;
     margin-left: 50px;
     color: #5A380F; }
+
+.img-rounded {
+  height: 400px;
+  max-width: 100%;
+  border-radius: 10px; }
+
+.container-popular-coffee {
+  width: 100%;
+  margin: auto; }
+  .container-popular-coffee--title {
+    color: #1c5633;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Pacifico"; }
 
 .card-product {
   margin: 15px;
@@ -8410,7 +8437,7 @@ textarea.form-control-lg {
     border-radius: 10px 10px 0 0;
     margin: 0;
     padding: 0;
-    width: 700px; }
+    width: 400px; }
   .card-product body {
     border-radius: 0 0 10px 10px; }
   .card-product price {
@@ -8433,10 +8460,6 @@ textarea.form-control-lg {
 
 .menu-button {
   text-align: center; }
-
-.img-rounded {
-  height: auto;
-  max-width: 100%; }
 
 .locales-container {
   display: flex;
@@ -8598,10 +8621,6 @@ textarea.form-control-lg {
     margin-right: 50px;
     margin-left: 50px;
     color: #5A380F; }
-
-.img-rounded {
-  border-radius: 10px;
-  margin-bottom: 40px; }
 
 .container-form {
   padding: 20px; }
